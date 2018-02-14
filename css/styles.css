@@ -18,6 +18,56 @@
     text-decoration: none;
     color: white; }
 
+.hero-circles-container {
+  display: flex;
+  margin-top: 50px;
+  height: 500px;
+  width: 100%;
+  justify-content: center; }
+
+.circle-1, .circle-2, .circle-3 {
+  border-radius: 50%; }
+  .circle-1 h1, .circle-2 h1, .circle-3 h1 {
+    color: black; }
+
+.circle-1 {
+  position: relative;
+  text-align: center;
+  height: 500px;
+  width: 500px;
+  background: maroon; }
+
+.circle-1:hover {
+  background: black; }
+  .circle-1:hover h1 {
+    color: maroon; }
+
+.circle-2 {
+  position: relative;
+  top: -450px;
+  left: 49px;
+  height: 400px;
+  width: 400px;
+  background: coral; }
+
+.circle-2:hover {
+  background: black; }
+  .circle-2:hover h1 {
+    color: coral; }
+
+.circle-3 {
+  position: relative;
+  top: -775px;
+  left: 122px;
+  height: 250px;
+  width: 250px;
+  background: orange; }
+
+.circle-3:hover {
+  background: black; }
+  .circle-3:hover h1 {
+    color: orange; }
+
 .hero {
   background-image: url("../img/yyc-skyline.png");
   background-size: cover;
@@ -37,8 +87,10 @@
 .flex-container {
   margin-top: 20px;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  flex-wrap: wrap; }
   .flex-container .box-1, .flex-container .box-2, .flex-container .box-3 {
+    border-radius: 50%;
     height: 200px;
     flex-basis: 30%;
     padding: 20px; }
@@ -58,8 +110,8 @@
   display: flex;
   justify-content: space-around; }
   .flex-container .box-4, .flex-container .box-5 {
-    height: 200px;
     flex-basis: 50%;
+    height: 200px;
     padding: 20px; }
   .flex-container .box-4 {
     background: orange; }

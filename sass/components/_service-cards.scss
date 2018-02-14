@@ -9,8 +9,10 @@
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   .box-1, .box-2, .box-3{
+    border-radius: 50%;
     height: 200px;
     flex-basis: 30%;
     padding: 20px;

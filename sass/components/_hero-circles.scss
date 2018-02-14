@@ -1,0 +1,66 @@
+.hero-circles-container{
+  display: flex;
+  margin-top: 50px;
+  height: 500px;
+  width: 100%;
+  justify-content: center
+}
+
+
+.circle-1, .circle-2, .circle-3{
+  border-radius: 50%;
+  h1 {
+    color: black;
+  }
+}
+
+.circle-1{
+  position: relative;
+  text-align: center;
+  height: 500px;
+  width: 500px;
+  background: maroon;
+
+}
+
+.circle-1:hover{
+  background: black;
+
+  h1{
+    color: maroon;
+  }
+}
+
+.circle-2{
+  position: relative;
+  top: -450px;
+  left: 49px;
+  height: 400px;
+  width: 400px;
+  background:coral;
+}
+
+.circle-2:hover{
+  background: black;
+
+  h1{
+    color: coral;
+  }
+}
+
+.circle-3{
+  position: relative;
+  top: -775px;
+  left: 122px;
+  height: 250px;
+  width: 250px;
+  background:orange;
+}
+
+.circle-3:hover{
+    background: black;
+
+    h1{
+      color:orange;
+    }
+  }
