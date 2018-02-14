@@ -35,10 +35,12 @@
   text-align: center;
   height: 500px;
   width: 500px;
-  background: maroon; }
+  background: #333; }
 
 .circle-1:hover {
-  background: black; }
+  background: black;
+  height: 600px;
+  width: 600px; }
   .circle-1:hover h1 {
     color: maroon; }
 
@@ -48,12 +50,14 @@
   left: 49px;
   height: 400px;
   width: 400px;
-  background: coral; }
+  background: #555; }
 
 .circle-2:hover {
+  height: 600px;
+  width: 600px;
   background: black; }
   .circle-2:hover h1 {
-    color: coral; }
+    color: chocolate; }
 
 .circle-3 {
   position: relative;
@@ -61,10 +65,12 @@
   left: 122px;
   height: 250px;
   width: 250px;
-  background: orange; }
+  background: #888; }
 
 .circle-3:hover {
-  background: black; }
+  background: black;
+  height: 600px;
+  width: 600px; }
   .circle-3:hover h1 {
     color: orange; }
 
