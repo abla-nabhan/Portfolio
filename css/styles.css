@@ -38,11 +38,12 @@
   background: #333; }
 
 .circle-1:hover {
-  background: black;
-  height: 600px;
-  width: 600px; }
+  background: black; }
   .circle-1:hover h1 {
-    color: maroon; }
+    color: maroon;
+    transform: translateX(-300px);
+    transition-delay: 0.1s;
+    transition: 0.2s; }
 
 .circle-2 {
   position: relative;
@@ -53,11 +54,12 @@
   background: #555; }
 
 .circle-2:hover {
-  height: 600px;
-  width: 600px;
   background: black; }
   .circle-2:hover h1 {
-    color: chocolate; }
+    color: chocolate;
+    transform: translateX(-300px);
+    transition-delay: 0.1s;
+    transition: 0.2s; }
 
 .circle-3 {
   position: relative;
@@ -68,11 +70,12 @@
   background: #888; }
 
 .circle-3:hover {
-  background: black;
-  height: 600px;
-  width: 600px; }
+  background: black; }
   .circle-3:hover h1 {
-    color: orange; }
+    color: orange;
+    transform: translateX(-300px);
+    transition-delay: 0.1s;
+    transition: 0.2s; }
 
 .hero {
   background-image: url("../img/yyc-skyline.png");

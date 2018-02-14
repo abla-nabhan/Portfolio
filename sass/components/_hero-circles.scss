@@ -25,10 +25,12 @@
 
 .circle-1:hover{
   background: black;
-  height: 600px;
-  width: 600px;
   h1{
     color: maroon;
+    transform: translateX(-300px);
+    transition-delay: 0.1s;
+    transition: 0.2s;
+
   }
 }
 
@@ -42,12 +44,15 @@
 }
 
 .circle-2:hover{
-  height: 600px;
-  width: 600px;
   background: black;
 
   h1{
     color: chocolate;
+    transform: translateX(-300px);
+    transition-delay: 0.1s;
+    transition: 0.2s;
+
+
   }
 }
 
@@ -62,9 +67,12 @@
 
 .circle-3:hover{
     background: black;
-    height: 600px;
-    width: 600px;
+
     h1{
       color:orange;
+      transform: translateX(-300px);
+      transition-delay: 0.1s;
+      transition: 0.2s;
+
     }
   }
