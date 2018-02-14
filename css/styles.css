@@ -20,7 +20,7 @@
 
 .hero-circles-container {
   display: flex;
-  margin-top: 50px;
+  margin-top: 10px;
   height: 500px;
   width: 100%;
   justify-content: center; }
@@ -33,49 +33,45 @@
 .circle-1 {
   position: relative;
   text-align: center;
-  height: 500px;
-  width: 500px;
-  background: #333; }
+  height: 700px;
+  width: 700px; }
+  .circle-1 img {
+    width: 100%; }
 
 .circle-1:hover {
-  background: black; }
+  background: black;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out; }
   .circle-1:hover h1 {
-    color: maroon;
-    transform: translateX(-300px);
-    transition-delay: 0.1s;
-    transition: 0.2s; }
+    color: maroon; }
 
 .circle-2 {
   position: relative;
-  top: -450px;
-  left: 49px;
-  height: 400px;
-  width: 400px;
+  top: -580px;
+  left: 130px;
+  height: 450px;
+  width: 450px;
   background: #555; }
 
 .circle-2:hover {
-  background: black; }
+  background: black;
+  transition: 0.5s; }
   .circle-2:hover h1 {
-    color: chocolate;
-    transform: translateX(-300px);
-    transition-delay: 0.1s;
-    transition: 0.2s; }
+    color: chocolate; }
 
 .circle-3 {
   position: relative;
-  top: -775px;
-  left: 122px;
+  top: -930px;
+  left: 230px;
   height: 250px;
   width: 250px;
   background: #888; }
 
 .circle-3:hover {
-  background: black; }
+  background: black;
+  transition: 0.5s; }
   .circle-3:hover h1 {
-    color: orange;
-    transform: translateX(-300px);
-    transition-delay: 0.1s;
-    transition: 0.2s; }
+    color: orange; }
 
 .hero {
   background-image: url("../img/yyc-skyline.png");
