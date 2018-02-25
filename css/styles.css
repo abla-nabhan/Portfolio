@@ -18,6 +18,16 @@
     text-decoration: none;
     color: white; }
 
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0; }
+
+.tagline {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 37px; }
+
 .hero-circles-container {
   display: flex;
   margin-top: 10px;
@@ -28,50 +38,103 @@
 .circle-1, .circle-2, .circle-3 {
   border-radius: 50%; }
   .circle-1 h1, .circle-2 h1, .circle-3 h1 {
-    color: black; }
+    color: black;
+    width: 150px; }
 
 .circle-1 {
   position: relative;
   text-align: center;
-  height: 700px;
-  width: 700px; }
-  .circle-1 img {
-    width: 100%; }
+  height: 500px;
+  width: 500px;
+  border: 5px solid purple;
+  background: white; }
+  .circle-1 .circle-1-h {
+    margin-left: 177px;
+    padding-top: 15px;
+    font-size: 44px; }
+
+.card1 {
+  transform: translateX(-500px);
+  height: 150px;
+  width: 200px;
+  margin-left: 70px;
+  color: transparent; }
+  .card1 h2 {
+    height: 20px;
+    margin-bottom: 15px; }
+  .card1 p {
+    height: 50px; }
 
 .circle-1:hover {
-  background: black;
-  transition: 0.5s;
-  transition-timing-function: ease-in-out; }
+  transition: 0.4s; }
   .circle-1:hover h1 {
-    color: maroon; }
+    color: #c12020; }
+  .circle-1:hover .card1 {
+    transform: translateX(450px);
+    color: black; }
 
 .circle-2 {
   position: relative;
-  top: -580px;
-  left: 130px;
-  height: 450px;
-  width: 450px;
-  background: #555; }
+  top: -431px;
+  left: 79px;
+  height: 350px;
+  width: 350px;
+  border: 5px solid maroon;
+  background: white; }
+  .circle-2 h1 {
+    padding-top: 14px;
+    padding-left: 120px;
+    font-size: 43px; }
 
 .circle-2:hover {
-  background: black;
   transition: 0.5s; }
+  .circle-2:hover .card2 {
+    transform: translateX(450px);
+    color: black; }
+  .circle-2:hover .projects-card {
+    background: steelblue; }
+  .circle-2:hover .process-card {
+    background: maroon; }
   .circle-2:hover h1 {
-    color: chocolate; }
+    color: #e06416; }
+
+.card2 {
+  transform: translateX(-500px);
+  height: 150px;
+  width: 200px;
+  margin-left: 70px;
+  color: transparent; }
+  .card2 .projects-card {
+    height: 100px;
+    width: 100px; }
+  .card2 .process-card {
+    height: 100px;
+    width: 100px; }
 
 .circle-3 {
   position: relative;
-  top: -930px;
-  left: 230px;
-  height: 250px;
-  width: 250px;
-  background: #888; }
+  top: -712px;
+  left: 154px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid orange; }
+  .circle-3 h1 {
+    padding-top: 60px;
+    padding-left: 36px;
+    font-size: 50px; }
+
+.card3 {
+  transform: translateX(-500px);
+  height: 150px;
+  width: 200px;
+  margin-left: 70px;
+  color: transparent; }
 
 .circle-3:hover {
-  background: black;
   transition: 0.5s; }
-  .circle-3:hover h1 {
-    color: orange; }
+  .circle-3:hover .card3 {
+    transform: translateX(350px);
+    color: black; }
 
 .hero {
   background-image: url("../img/yyc-skyline.png");
