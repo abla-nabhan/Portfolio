@@ -1,56 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
   </head>
   <body>
+    <script type="text/javascript">
+    $(document).ready(function(){
 
-<!-- NAVIGATION SECTION -->
-    <div class="desktop-nav">
-      <ul class="navigation-links">
-        <li><a href="#"> Services</a></li>
-        <li><a href="#"> Portfolio</a></li>
-        <li><a href="#"> Personal Projects</a></li>
-      </ul>
+      $("#button1").click(function(){
+          //make div1 visible
+          $("#card1").fadeIn();  // fades in with default speed
+      });
+      $("#button2").click(function(){
+          //make div1 visible
+          $("#card2").fadeIn();  // fades in with default speed
+      });
+      $("#button3").click(function(){
+          //make div1 visible
+          $("#card3").fadeIn();  // fades in with default speed
+      });
+    })
+
+    </script>
+
+<!-- HEADER SECTION -->
+    <h1 class="title">ABLA NABHAN</h1>
+    <h4 class="tagline">Digital Marketer & Designer</h4>
+
+<!-- DESKTOP CIRCLE OUTLINE SECTION  -->
+    <div class='hero-circles-container'>
+          <div class="circle-container">
+                  <div class='circle-1'>
+                        <button id="button1"><h1>WHAT</h1></button>
+                        <div class="card1" id="card1">
+                            <h2>What I Do</h2>
+                            <p class="what-circle-text">
+                            Digital Marketer <br>
+                            Graphic Designer <br>
+                            Web UI/UX <br>
+                            Web Developer</p>
+                        </div>
+                  </div>
+
+
+              <div class='circle-2'>
+                    <button id="button2"><h1>HOW</h1></button>
+                    <div class="card2" id="card2">
+                        <h2>How I Do It</h2>
+                        <p class="how-circle-text">
+                        Projects I've Done <br>
+                        <div class="projects-card"></div>
+                        My Process: How I Think <br>
+                        <div class="process-card"></div>
+                        </p>
+                    </div>
+              </div>
+              <div class='circle-3'>
+                    <button id="button3"><h1>WHY</h1></button>
+                    <div class="card3" id="card3">
+                        <h2>Why I Love This</h2><br>
+                        <p class="why-circle-text">
+                        A deep appreciation of beauty and excellence.
+                        </p>
+                    </div>
+              </div>
+          </div>
     </div>
-<!-- HERO SECTION -->
-    <div class="hero">
-      <div class="hero-image"></div>
-    </section>
 
-<!-- SERVICE CARDS SECTION  -->
-    <div class='service-cards-container'>
-      <h1>Services</h1>
-      <div class='flex-container'>
-          <div class='box box-1'> <h1>Graphic Design</h1></div>
-          <div class='box box-2'> <h1>Web Design</h1></div>
-          <div class='box box-3'> <h1>Web Dev</h1></div>
-      </div>
+<!-- MOBILE SECTION -->
+<div class="circle-container-mobile">
+    <div class='circle-1-mobile'>
+        <div class="card1m" id="card1m">
+            <h2>What I Do</h2>
+            <p class="what-circle-text-m">
+            Digital Marketer <br>
+            Graphic Designer <br>
+            Web UI/UX <br>
+            Web Developer</p>
+        </div>
     </div>
-
-<!-- ABOUT SECTION -->
-    <div class="about-me-container">
-      <h1>About Abla</h1>
-      <div class="flex-container">
-          <div class='box box-4'></div>
-          <div class="vertical-line"></div>
-          <div class='box box-5'></div>
-      </div>
+    <div class='circle-2-mobile'>
+        <div class="card2m" id="card2m">
+            <h2>How I Do It</h2>
+            <p class="how-circle-text-m">
+            Projects & Process
+            </p>
+        </div>
     </div>
+    <div class='circle-3-mobile'>
+          <div class="card3m" id="card3m">
+              <h2>Why I Love This</h2><br>
+              <p class="why-circle-text-m">
+              A deep appreciation of beauty and excellence.
+              </p>
+          </div>
+    </div>
+</div>
 
-<!-- FOOTER SECTION -->
-  <footer>
-
-      <h5>Social Media Links</h3>
-
-  </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
 </html>

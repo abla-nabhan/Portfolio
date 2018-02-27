@@ -1,0 +1,22 @@
+@media (max-width:1050px) {
+
+  .circle-1, .circle-2, .circle-3, .hero-circles-container {
+    display: none;
+  }
+  .circle-container-mobile{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .circle-1-mobile, .circle-2-mobile, .circle-3-mobile{
+    display: flex;
+    min-width: 200px;
+    flex-flow: row wrap;
+    height: 350px;
+    flex: 1 1 200px;
+    border-radius:50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

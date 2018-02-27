@@ -1,12 +1,17 @@
+body{
+  background: white;
+}
 .title{
   text-align: center;
   font-size: 40px;
   margin-bottom: 0;
+  color: #555;
 }
 .tagline{
   text-align: center;
   font-size: 17px;
   margin-bottom: 37px;
+  color: #777;
 }
 
 .hero-circles-container{
@@ -31,24 +36,33 @@ button:focus{
     padding: 0;
   }
   h1 {
-    color: black;
+    color: #333444;
     width: 150px;
   }
 }
+
 .circle-1:hover, .circle-2:hover, .circle-3:hover{
     h1{
-      border-bottom: 2px solid black;
+      font-size: 3em;
   }
 }
 
+.circle-3:hover{
+  background-image: url('../img/bio-pic3B.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1{
+    color: #999;
+  }
+}
 .circle-1{
   position: relative;
   text-align: center;
   height: 500px;
   width: 500px;
-  border: 5px solid purple;
-  background: white;
-
+  background: linear-gradient(to bottom, #ff9500 0%,#8f0091 100%);
   h1{
     padding-top: 10px;
     padding-left: 14px;
@@ -73,17 +87,6 @@ button:focus{
       }
 
 }
-// .circle-1:hover, .circle-1:active {
-//   transition: 0.4s;
-//   h1{
-//     color: #c12020;
-//   }
-//   .card1 {
-//       transform: translateX(450px);
-//       color: black;
-//   }
-// }
-
 
 .circle-2{
   position: relative;
@@ -91,32 +94,15 @@ button:focus{
   left: 79px;
   height: 350px;
   width: 350px;
-  border: 5px solid maroon;
-  background: white;
+  background: linear-gradient(to bottom, #ff9500 0%,#8f0091 100%);
+
 
   h1{
     padding-top: 14px;
     margin-left: 97px;
-    font-size: 43px;
+    font-size: 40px;
   }
 }
-
-// .circle-2:hover{
-//   transition: 0.5s;
-//   .card2 {
-//       transform: translateX(450px);
-//       color: black;
-//   }
-//   .projects-card{
-//     background: steelblue;
-//   }
-//   .process-card{
-//     background: maroon;
-//   }
-//   h1{
-//     color: #e06416;
-//   }
-// }
 
 .card2{
   display: none;
@@ -145,12 +131,13 @@ button:focus{
   left: 154px;
   height: 200px;
   width: 200px;
-  border: 5px solid orange;
+  background: linear-gradient(to bottom, #ff9500 0%,#8f0091 100%);
+
 
   h1{
     padding-top: 60px;
     margin-left: 23px;
-    font-size: 50px;
+    font-size: 43px;
   }
 }
 .card3{
@@ -161,11 +148,7 @@ button:focus{
     margin-left: 70px;
 }
 
-// .circle-3:hover{
-//     transition: 0.5s;
-//
-//     .card3 {
-//         transform: translateX(350px);
-//         color: black;
-//     }
-// }
+.circle-1-mobile, .circle-2-mobile, .circle-3-mobile{
+  display: none;
+  background: linear-gradient(to bottom, #ff9500 0%,#8f0091 100%);
+}

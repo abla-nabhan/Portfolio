@@ -18,15 +18,20 @@
     text-decoration: none;
     color: white; }
 
+body {
+  background: white; }
+
 .title {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  color: #555; }
 
 .tagline {
   text-align: center;
   font-size: 17px;
-  margin-bottom: 37px; }
+  margin-bottom: 37px;
+  color: #777; }
 
 .hero-circles-container {
   display: flex;
@@ -46,19 +51,26 @@ button:focus {
     margin: 0;
     padding: 0; }
   .circle-1 h1, .circle-2 h1, .circle-3 h1 {
-    color: black;
+    color: #333444;
     width: 150px; }
 
 .circle-1:hover h1, .circle-2:hover h1, .circle-3:hover h1 {
-  border-bottom: 2px solid black; }
+  font-size: 3em; }
+
+.circle-3:hover {
+  background-image: url("../img/bio-pic3B.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .circle-3:hover h1 {
+    color: #999; }
 
 .circle-1 {
   position: relative;
   text-align: center;
   height: 500px;
   width: 500px;
-  border: 5px solid purple;
-  background: white; }
+  background: linear-gradient(to bottom, #ff9500 0%, #8f0091 100%); }
   .circle-1 h1 {
     padding-top: 10px;
     padding-left: 14px; }
@@ -81,12 +93,11 @@ button:focus {
   left: 79px;
   height: 350px;
   width: 350px;
-  border: 5px solid maroon;
-  background: white; }
+  background: linear-gradient(to bottom, #ff9500 0%, #8f0091 100%); }
   .circle-2 h1 {
     padding-top: 14px;
     margin-left: 97px;
-    font-size: 43px; }
+    font-size: 40px; }
 
 .card2 {
   display: none;
@@ -109,11 +120,11 @@ button:focus {
   left: 154px;
   height: 200px;
   width: 200px;
-  border: 5px solid orange; }
+  background: linear-gradient(to bottom, #ff9500 0%, #8f0091 100%); }
   .circle-3 h1 {
     padding-top: 60px;
     margin-left: 23px;
-    font-size: 50px; }
+    font-size: 43px; }
 
 .card3 {
   display: none;
@@ -121,6 +132,10 @@ button:focus {
   height: 150px;
   width: 200px;
   margin-left: 70px; }
+
+.circle-1-mobile, .circle-2-mobile, .circle-3-mobile {
+  display: none;
+  background: linear-gradient(to bottom, #ff9500 0%, #8f0091 100%); }
 
 .hero {
   background-image: url("../img/yyc-skyline.png");
@@ -180,3 +195,19 @@ footer {
     color: white;
     padding-top: 20px;
     padding-left: 20px; }
+
+@media (max-width: 1050px) {
+  .circle-1, .circle-2, .circle-3, .hero-circles-container {
+    display: none; }
+  .circle-container-mobile {
+    display: flex;
+    flex-direction: row; }
+  .circle-1-mobile, .circle-2-mobile, .circle-3-mobile {
+    display: flex;
+    min-width: 200px;
+    flex-flow: row wrap;
+    height: 350px;
+    flex: 1 1 200px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center; } }
