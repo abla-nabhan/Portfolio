@@ -206,3 +206,18 @@
         text-align: justify;
     }
 }
+
+.sitemap-container{
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    justify-content: center;
+
+    .sitemap{
+        display: inherit;
+        flex: 1;
+        height: 250px;
+        max-width: 500px;
+        border: 2px solid maroon;
+    }
+}
