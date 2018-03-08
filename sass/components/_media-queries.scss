@@ -10,13 +10,26 @@
 
   .circle-1-mobile, .circle-2-mobile, .circle-3-mobile{
     display: flex;
-    min-width: 200px;
-    flex-flow: row wrap;
-    height: 350px;
-    flex: 1 1 200px;
+    flex-basis: 30%;
+    min-width: 300px;
+    height: 300px;
     border-radius:50%;
-    justify-content: center;
     align-items: center;
+    margin: 10px;
+    padding-left: 20px;
   }
 
+  .circle-1-mobile, .circle-2-mobile{
+    padding-left: 75px;
+  }
+
+  .circle-3-mobile{
+    padding-left:30px;
+  }
+
+}
+.circle-container-mobile{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
