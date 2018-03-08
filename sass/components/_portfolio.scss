@@ -1,3 +1,9 @@
+.portfolio-container{
+    p{
+        text-align: justify;
+    }
+}
+
 .heading{
     display: flex;
     flex-wrap: wrap;
@@ -33,7 +39,7 @@
         flex: 1;
         justify-content: center;
     }
-    .problem-text-container{
+    .problem-text-container,{
         display: inherit;
         flex: 2;
         max-width: 500px;
@@ -72,5 +78,23 @@
         max-width: 50px;
         margin: 0 50px;
         background: orange;
+    }
+}
+
+.research-heading{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 800px;
+    h1{
+        display: inherit;
+        flex: 1;
+        justify-content: center;
+    }
+    .research-text-container,{
+        display: inherit;
+        flex: 2;
+        max-width: 500px;
     }
 }

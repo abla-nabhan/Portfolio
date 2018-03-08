@@ -213,6 +213,9 @@ button:focus {
   justify-content: space-around;
   flex-wrap: wrap; }
 
+.portfolio-container p {
+  text-align: justify; }
+
 .heading {
   display: flex;
   flex-wrap: wrap;
@@ -277,3 +280,18 @@ button:focus {
     max-width: 50px;
     margin: 0 50px;
     background: orange; }
+
+.research-heading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 800px; }
+  .research-heading h1 {
+    display: inherit;
+    flex: 1;
+    justify-content: center; }
+  .research-heading .research-text-container {
+    display: inherit;
+    flex: 2;
+    max-width: 500px; }
