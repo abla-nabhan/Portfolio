@@ -1,0 +1,76 @@
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    h1,h2 {
+        text-align: center;
+        flex: 1;
+    }
+}
+.heading-text-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    p{
+        display: inherit;
+        min-height:250px;
+        flex: 1;
+        max-width: 500px;
+        text-align: justify;
+    }
+}
+
+.problem-heading{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 800px;
+    h1{
+        display: inherit;
+        flex: 1;
+        justify-content: center;
+    }
+    .problem-text-container{
+        display: inherit;
+        flex: 2;
+        max-width: 500px;
+    }
+}
+
+.success-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.success-display-container{
+    display: flex;
+    justify-content: center;
+    .success-display-box{
+        margin-top: 50px;
+        display: inherit;
+        flex: 1;
+        border: 2px solid black;
+        height: 200px;
+        max-width: 500px;
+    }
+}
+
+
+.success-circles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .circle1,.circle2,.circle3,.circle4{
+        display: inherit;
+        flex: 1;
+        border-radius: 50%;
+        height: 50px;
+        max-width: 50px;
+        margin: 0 50px;
+        background: orange;
+    }
+}
