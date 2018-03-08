@@ -98,3 +98,57 @@
         max-width: 500px;
     }
 }
+
+.ux-container{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+
+    h2{
+        text-align: center;
+    }
+}
+
+.primary-persona-container{
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    justify-content: center;
+
+    .primary-persona{
+        display: inherit;
+        flex: 1;
+        height: 250px;
+        max-width: 500px;
+        border: 2px solid steelblue;
+    }
+}
+
+.other-persona-container{
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .secondary-persona{
+        display: inherit;
+        flex: 1;
+        height: 250px;
+        max-width: 500px;
+        min-width: 300px;
+        border: 2px solid steelblue;
+        margin: 50px 10px;
+    }
+    .third-persona{
+        display: inherit;
+        flex: 1;
+        height: 250px;
+        max-width: 500px;
+        min-width: 300px;
+        border: 2px solid hotpink;
+        margin: 50px 10px;
+    }
+
+}
