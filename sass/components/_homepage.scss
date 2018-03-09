@@ -1,6 +1,4 @@
-body{
-  background: white;
-}
+
 .title{
   text-align: center;
   font-size: 40px;
@@ -8,9 +6,7 @@ body{
   color: #555;
   text-decoration: none;
 }
-a:focus,a:hover{
-  text-decoration: none;
-}
+
 .tagline{
   text-align: center;
   font-size: 17px;
@@ -26,10 +22,6 @@ a:focus,a:hover{
   height: 500px;
   width: 100%;
   justify-content: center
-}
-
-button:focus{
-  outline: 0;
 }
 
 .circle-1, .circle-2, .circle-3{

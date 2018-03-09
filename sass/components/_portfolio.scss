@@ -8,16 +8,18 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-top: 40px;
     h1,h2 {
         text-align: center;
         flex: 1;
+        margin-bottom: 30px;
     }
 }
 .heading-text-container{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 300px;
+    height: 250px;
     justify-content: center;
     p{
         display: inherit;
@@ -34,6 +36,7 @@
     flex-direction: row;
     justify-content: flex-start;
     max-width: 800px;
+    margin-left: 100px;
     h1{
         display: inherit;
         flex: 1;
@@ -87,15 +90,20 @@
     flex-direction: row;
     justify-content: flex-start;
     max-width: 800px;
+    margin-top: 30px;
     h1{
         display: inherit;
         flex: 1;
         justify-content: center;
+        margin-left: 100px;
+
     }
     .research-text-container,{
         display: inherit;
         flex: 2;
         max-width: 500px;
+        margin-left: 100px;
+
     }
 }
 
@@ -107,6 +115,7 @@
 
     h2{
         text-align: center;
+        margin-top: 50px;
     }
 }
 
@@ -136,6 +145,8 @@
         height: 250px;
         max-width: 500px;
         border: 2px solid steelblue;
+        margin-top: 50px;
+
     }
 }
 

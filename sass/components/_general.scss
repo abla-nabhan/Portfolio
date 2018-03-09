@@ -1,0 +1,19 @@
+body{
+  background: white;
+};
+h1, h2,h3,h4,h5{
+  font-family: 'Raleway', sans-serif;
+};
+
+p{
+  font-family: 'Playfair Display', serif;
+
+};
+
+a:focus,a:hover{
+  text-decoration: none;
+};
+
+button:focus{
+  outline: 0;
+};
