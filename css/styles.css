@@ -24,7 +24,8 @@
 .logo-container {
   display: flex; }
   .logo-container .logo-button {
-    background: transparent; }
+    background: transparent;
+    border: none; }
 
 .tagline-nav {
   display: flex;
@@ -302,7 +303,7 @@
   .persona-text p {
     margin-top: 50px;
     display: inherit;
-    min-height: 250px;
+    min-height: 180px;
     flex: 1;
     max-width: 500px;
     text-align: justify; }
@@ -373,7 +374,7 @@
   .usage-text p {
     margin-top: 50px;
     display: inherit;
-    min-height: 250px;
+    min-height: 180px;
     flex: 1;
     max-width: 500px;
     text-align: justify; }
